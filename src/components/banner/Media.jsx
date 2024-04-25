@@ -1,6 +1,6 @@
 import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact, FaWhatsapp } from "react-icons/fa";
+import { SiTailwindcss, SiFigma, SiNextdotjs, SiFlutter, SiNodedotjs } from "react-icons/si";
 const Media = () => {
   return (
     <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -10,13 +10,20 @@ const Media = () => {
           </h2>
           <div className="flex gap-4">
             <span className="bannerIcon">
+            <a href='https://www.facebook.com/hirpa.feyisa.5?mibextid=ZbWKwL'>
               <FaFacebookF />
+              </a>
             </span>
             <span className="bannerIcon">
-              <FaTwitter />
+            <a href="https://api.whatsapp.com/send?phone=251930605974">
+               <FaWhatsapp />
+               </a>
             </span>
             <span className="bannerIcon">
-              <FaLinkedinIn />
+            <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">
+               <FaLinkedinIn />
+               </a>
+             
             </span>
           </div>
         </div>
@@ -29,11 +36,14 @@ const Media = () => {
               <FaReact />
             </span>
             <span className="bannerIcon">
-              <SiNextdotjs />
+              <SiFlutter />
             </span>
             <span className="bannerIcon">
-              <SiTailwindcss />
+              <SiNodedotjs />
             </span>
+            {/* <span className="bannerIcon">
+              <SiTailwindcss />
+            </span> */}
             <span className="bannerIcon">
               <SiFigma />
             </span>
