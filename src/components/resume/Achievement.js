@@ -16,7 +16,7 @@ const Achievement = () => {
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Senier Application Developer"
+            title="Senior Application Developer"
             subTitle="Application Developer"
             result="Success"
             des="Notable achievements at Vintege Technology PLC: Developed and delivered 6+ Flutter applications, enhancing software offerings and exceeding client expectations. Built strong client relationships and continuously improved skills."
