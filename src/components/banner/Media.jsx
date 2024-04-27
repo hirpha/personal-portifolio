@@ -10,22 +10,28 @@ const Media = () => {
             Find me in
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon">
+         
             <a href='mailto:hirphafayisa88@gmail.com'>
+            <span className="bannerIcon">
               <MdEmail />
+              </span>
               </a>
-            </span>
-            <span className="bannerIcon">
+        
+            
             <a href="https://api.whatsapp.com/send?phone=251930605974">
-               <FaWhatsapp />
-               </a>
-            </span>
             <span className="bannerIcon">
+              <FaWhatsapp />
+              </span>
+               </a>
+           
+          
             <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">
-               <FaLinkedinIn />
+               <span className="bannerIcon">
+              <FaLinkedinIn />
+              </span>
                </a>
              
-            </span>
+         
           </div>
         </div>
         <div>

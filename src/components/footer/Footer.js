@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaTwitter, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import {logo} from "../../assets/index"
 import { MdEmail } from 'react-icons/md';
 
@@ -9,15 +9,25 @@ const Footer = () => {
       <div className="w-full h-full flex flex-row gap-8">
         <img className="w-32" src={logo} alt="logo" />
         <div className="flex pt-8 gap-4 p">
+          <a href='mailto:hirphafayisa88@gmail.com'>
           <span className="bannerIcon">
+            
             <MdEmail />
           </span>
+          </a>
+          <a href="https://api.whatsapp.com/send?phone=251930605974">
+            
           <span className="bannerIcon">
-            <FaTwitter />
+            <FaWhatsapp />
           </span>
+          </a>
+          
+          <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">
+              
           <span className="bannerIcon">
             <FaLinkedinIn />
           </span>
+               </a>
         </div>
       </div>
       {/* <div className="w-full h-full">

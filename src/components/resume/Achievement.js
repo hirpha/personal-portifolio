@@ -16,10 +16,10 @@ const Achievement = () => {
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
+            title="Senier Application Developer"
+            subTitle="Application Developer"
             result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            des="Notable achievements at Vintege Technology PLC: Developed and delivered 6+ Flutter applications, enhancing software offerings and exceeding client expectations. Built strong client relationships and continuously improved skills."
           />
          
         </div>
@@ -31,10 +31,10 @@ const Achievement = () => {
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
+            title="Developed Over 6 apps"
+            subTitle="Fullstack Developer"
             result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            des="Developed and deployed multiple successful Flutter applications, surpassing client expectations. Implemented innovative solutions, resulting in improved user experience and increased client satisfaction. Collaborated effectively with cross-functional teams and consistently met project deadlines."
           />
           
         </div>

@@ -20,7 +20,7 @@ const Education = () => {
             title="BSc in Sofware Engineering"
             subTitle="Jimma University (2018 - 2022)"
             result="3.83/4"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            des="I pursued my Bachelor's degree in Software Engineering at Jimma University from 2018 to 2022. During this four-year program, I gained a strong foundation in software development principles, algorithms, data structures, and various programming languages. I also acquired practical skills through hands-on projects and internships. My education at Jimma University equipped me with the knowledge and expertise needed to excel in the field of software engineering."
           />
           {/* <ResumeCard
             title="AS - Science & Information"
@@ -48,13 +48,13 @@ const Education = () => {
             title="Application Developer"
             subTitle="Vintage Technology PLC - (2022 - Present)"
             result="Ethiapia"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            des="During my tenure at Vintege Technology PLC as an application developer, I have gained valuable experience and knowledge. Working with the company since 2022, I have accumulated two years of expertise in developing applications using the Flutter framework. Through successfully delivering over six applications, I have enhanced my skills in software development and contributed to the improvement of the company's software offerings."
           />
           <ResumeCard
             title="Flutter Developer"
             subTitle="Upwork - (2024 - present)"
             result="worldwide"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            des="As a Flutter Developer on Upwork, I have gained expertise in cross-platform app development, UI/UX design, API integration, and efficient coding. Effective communication and collaboration with clients have been crucial for exceeding expectations and delivering successful solutions."
           />
           {/* <ResumeCard
             title="Front-end Developer"
