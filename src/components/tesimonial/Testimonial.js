@@ -112,7 +112,7 @@ const Testimonial = () => {
                   </p>
                   <h3 className="text-2xl font-bold">Loky Auth</h3>
                   <p className="text-base tracking-wide text-gray-500">
-                    Operation Officer
+                    General Manager
                   </p>
                 </div>
               </div>

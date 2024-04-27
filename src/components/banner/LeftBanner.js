@@ -26,7 +26,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-        Flexible developer with expertise in full-stack, Flutter, and software engineering. On user experience, builds stunning cross-platform applications, and exhibits problem-solving skills through a variety of online and mobile projects.
+        Experienced full-stack developer witha strong background in Flutter and software engineering. Specializes in creating engaging cross-platform applications, prioritizing user experience. Known for adept problem-solving across various online and mobile projects
          </p>
       </div>
      {/* Media */}
