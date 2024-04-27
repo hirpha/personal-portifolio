@@ -1,5 +1,6 @@
 import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact, FaWhatsapp } from "react-icons/fa";
+import { FaLinkedinIn, FaReact, FaWhatsapp } from "react-icons/fa";
+import { MdEmail } from 'react-icons/md';
 import { SiTailwindcss, SiFigma, SiNextdotjs, SiFlutter, SiNodedotjs } from "react-icons/si";
 const Media = () => {
   return (
@@ -10,8 +11,8 @@ const Media = () => {
           </h2>
           <div className="flex gap-4">
             <span className="bannerIcon">
-            <a href='https://www.facebook.com/hirpa.feyisa.5?mibextid=ZbWKwL'>
-              <FaFacebookF />
+            <a href='mailto:hirphafayisa88@gmail.com'>
+              <MdEmail />
               </a>
             </span>
             <span className="bannerIcon">

@@ -1,6 +1,8 @@
 import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaTelegram } from "react-icons/fa";
+import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
+
 import { contactImg } from "../../assets/index"; 
+import { MdEmail } from 'react-icons/md';
 
 const ContactLeft = () => {
   return (
@@ -16,8 +18,7 @@ const ContactLeft = () => {
           Fullstack Developer
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-          ipsam autem cumque, accusantium dicta odio.
+        Expert full-stack Flutter dev with stunning UX skills. Solves problems creatively in online and mobile projects. A flexible, talented developer.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">+251930605974</span>
@@ -29,21 +30,23 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
-          <span className="bannerIcon">
-            <a href='http://facebook.com' target="_blank">
-            <FaFacebookF />
-            </a>
-          </span>
-          <span className="bannerIcon">
-            <FaTelegram />
-          </span>
-          <span className="bannerIcon">
-            <a href='https://www.linkedin.com/in/hirpha-fayisa-072051186/'
-target='_blank'>
-            <FaLinkedinIn />
-            </a>
-          </span>
-        </div>
+            <span className="bannerIcon">
+            <a href='mailto:hirphafayisa88@gmail.com'>
+              <MdEmail />
+              </a>
+            </span>
+            <span className="bannerIcon">
+            <a href="https://api.whatsapp.com/send?phone=251930605974">
+               <FaWhatsapp />
+               </a>
+            </span>
+            <span className="bannerIcon">
+            <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">
+               <FaLinkedinIn />
+               </a>
+             
+            </span>
+          </div>
       </div>
     </div>
   );
